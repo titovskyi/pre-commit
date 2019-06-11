@@ -39,6 +39,7 @@
     "@types/node": "~8.9.4",
     "codelyzer": "~4.5.0",
     "htmlhint": "^0.11.0",
+    "husky": "^2.4.0",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~4.0.0",
@@ -63,5 +64,9 @@
     "tslint-plugin-prettier": "^2.0.1",
     "typescript": "~3.2.2",
     "typescript-tslint-plugin": "^0.4.0"
-  }
+  },
+  "pre-commit": [
+    "lint",
+    "test"
+  ]
 }
