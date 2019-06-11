@@ -1,7 +1,4 @@
 repo: https://github.com/titovskyi/pre-commit.git
       sha: '' # Use the sha or tag you want to point at like 0.0.1
       hooks:
-      -   id: stylelint
-          additional_dependencies: ['stylelint@10.0.1', 'stylelint-config-recommended-scss@3.3.0']
       -   id: tslint
-      -   id: htmlhint
