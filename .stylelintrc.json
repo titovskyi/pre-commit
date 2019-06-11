@@ -1,0 +1,21 @@
+{
+    "extends": [
+        "stylelint-config-standard",
+        "stylelint-config-recommended-scss"
+    ],
+    "rules": {
+        "number-leading-zero": "always",
+        "color-no-invalid-hex": true,
+        "indentation": 4,
+        "function-name-case": ["lower", {"ignoreFunctions": "/^get.*$/"}],
+        "no-missing-end-of-source-newline": true,
+        "function-calc-no-invalid": true,
+        "declaration-block-no-redundant-longhand-properties": true,
+        "declaration-block-single-line-max-declarations": 1,
+        "selector-max-empty-lines": 0,
+        "at-rule-empty-line-before": ["always", { "except": ["after-same-name", "first-nested"] }],
+        "no-eol-whitespace": [true, { "ignore": [
+            "empty-lines"
+        ] }]
+    }
+}

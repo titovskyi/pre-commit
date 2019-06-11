@@ -1,0 +1,16 @@
+@import '../abstracts/variables';
+
+%button {
+    display: inline-block;
+    padding: $button-padding;
+    border-width: $button-border-width;
+    border-style: solid;
+    cursor: pointer;
+
+    &_theme {
+        font-size: $font-size;
+        font-weight: bold;
+        text-transform: uppercase;
+        transition: all 0.3s ease-in-out;
+    }
+}

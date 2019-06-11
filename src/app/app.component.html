@@ -1,0 +1,24 @@
+<button 
+    class="button button_theme_button button_theme_main" 
+    id="some" 
+    (click)="someMethod()"
+>
+	Normal Button
+</button>
+<button 
+    class="button button_theme_button button_theme_secondary ad_some"
+>
+	Green Button
+</button>
+<lib-some-library></lib-some-library>
+<lib-titovskyi-first-library
+    class="myclass"
+></lib-titovskyi-first-library>
+<ul>
+	<li *ngFor="let item of collection; trackBy: trackByFn">{{item.id}}</li>
+</ul>
+{{collection | json}}
+<button (click)="getItems()">Refresh items</button>
+<div class="upperwrap">
+    <div class="innerwrap"></div>
+</div>

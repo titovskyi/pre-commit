@@ -1,0 +1,39 @@
+@import '../styles/main.scss';
+@import '../styles/abstracts/functions';
+
+.button {
+    @extend %button;
+
+    &_theme_button {
+        @extend %button_theme;
+    }
+
+    &_theme_main {
+        @include button-theme(color('primary'));
+
+        font-size: getFontSize('small');
+    }
+
+    &_theme_secondary {
+        @include button-theme(color('secondary'));
+
+        font-size: getFontSize('large');
+        line-height: 0.5;
+        width: calc(100% - 80px);
+    }
+}
+
+.upperwrap {
+    width: 100%;
+    height: 100px;
+    background-color: red;
+}
+
+.upperwrap .innerwrap {
+    width: 50%;
+    background-color: green;
+}
+
+.innerwrap {
+    height: 20px;
+}

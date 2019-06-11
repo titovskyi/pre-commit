@@ -1,0 +1,16 @@
+{
+	"tagname-lowercase": false,
+	"attr-value-double-quotes": true,
+	"attr-no-duplication": true,
+	"tag-pair": true,
+	"empty-tag-not-self-closed": true,
+	"spec-char-escape": true,
+	"id-unique": true,
+	"src-not-empty": true,
+	"alt-require": true,
+	"id-class-value": "bem",
+	"style-disabled": false,
+	"inline-style-disabled": true,
+	"space-tab-mixed-disabled": "tab",
+	"attr-unsafe-chars": true
+}

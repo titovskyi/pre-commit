@@ -1,0 +1,7 @@
+@function color($key) {
+    @return map-get($colors, $key);
+}
+
+@function getFontSize($key) {
+    @return map-get($font-scales, $key);
+}

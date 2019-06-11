@@ -1,0 +1,50 @@
+{
+  "linterOptions": {
+    "exclude": [
+      "bin",
+      "build",
+      "node_modules",
+      "tslint-rules"
+    ]
+  },
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noEmitHelpers": true,
+    "importHelpers": true,
+    "newLine": "lf",
+    "target": "es5",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "paths": {
+      "some-library": [
+        "dist/some-library"
+      ],
+      "some-library/*": [
+        "dist/some-library/*"
+      ],
+      "titovskyi-first-library": [
+        "dist/titovskyi-first-library"
+      ],
+      "titovskyi-first-library/*": [
+        "dist/titovskyi-first-library/*"
+      ]
+    }
+  }
+}

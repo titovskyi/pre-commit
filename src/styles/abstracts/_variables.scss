@@ -1,0 +1,9 @@
+@import '../base/colors';
+@import '../components/button';
+@import '../abstracts/functions';
+
+$button-padding: 0.5rem 1rem;
+$font-size: 12px;
+
+$button-border-width: $BORDER_WIDTH_1PX;
+$button-color-hover: color('light');
